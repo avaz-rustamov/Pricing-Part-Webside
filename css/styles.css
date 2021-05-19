@@ -41,6 +41,7 @@ body {
   background-size: cover;
   padding-top: 71px;
   padding-bottom: 103px;
+  display: block;
 }
 
 .pricing-heading-top {
@@ -52,13 +53,17 @@ body {
 .pricing-price-list {
   display: flex;
   align-items: center;
+  margin-left: 40px;
 }
+
 .pricing-price-professional .pricing-money {
   color: #FFFFFF;
 }
+
 .pricing-price-professional p {
   color: #FFFFFF;
 }
+
 .pricing-price {
   font-size: 72px;
   text-align: center;
@@ -77,6 +82,7 @@ body {
 
 .pricing {
   display: flex;
+  align-items: center;
 }
 
 .pricing-list {
@@ -127,11 +133,19 @@ body {
 }
 
 .professional-list {
+  align-items: center;
+  flex-direction: column;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  padding-bottom: 55px;
+  padding-bottom: 55px;
   background: linear-gradient(135deg, #A2A7F0 0.05%, #696EDD 100.05%);
   box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
   border-radius: 10px;
-  height: 500px;
   color: #FFFFFF;
+}
+.pricing-item-part-professional::before {
+  background-color: #FFFFFF;
 }
 
 .pricing-link {
@@ -153,10 +167,12 @@ body {
   box-sizing: border-box;
   border-radius: 6px;
 }
+
 .pricing-link-professional {
   background: #fff;
   color: #6D72DE;
 }
+
 .pricing-link-professional:hover {
   color: #fff;
   background-color: #6D72DE;
